@@ -231,7 +231,7 @@ if st.button("🔮 Predict", use_container_width=True):
 
     st.subheader("🎯 Prediction Result")
 
-    if prediction == 1:
+    if prediction == YES:
 
         st.success(
             "### YES — The pupil is predicted to have listened "
