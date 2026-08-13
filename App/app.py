@@ -5,14 +5,14 @@ import os
 
 
 # Load the trained model and column names
-model = joblib.load("../Models/rf_model.pkl")
+#model = joblib.load("../Models/rf_model.pkl")
 # import os
 # import joblib
 
-# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# model_path = os.path.join(BASE_DIR, "models", "rf_model.pkl")
+ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ model_path = os.path.join(BASE_DIR, "Models", "rf_model.pkl")
 
-# model = joblib.load(model_path)
+model = joblib.load(model_path)
 model_columns = joblib.load("../Models/model_columns.pkl")
 
 
